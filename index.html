@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>KoViLiKa Regional SE Kalimantan - 153 Anggota Lengkap</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #1e40af;
+      --gradient: linear-gradient(135deg, #3b82f6, #8b5cf6, #ec4899);
+      --bg: #f0f9ff;
+      --card: #ffffff;
+      --text: #0f172a;
+      --text-light: #475569;
+      --shadow: 0 10px 30px rgba(59,130,246,0.18);
+    }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 20px 12px;
+    }
+    .container { max-width: 1300px; margin: 0 auto; }
+    header {
+      text-align: center;
+      padding: 3.5rem 1.5rem 2.5rem;
+      background: var(--gradient);
+      color: white;
+      border-radius: 24px 24px 0 0;
+      box-shadow: 0 15px 40px rgba(59,130,246,0.25);
+    }
+    header h1 { font-size: 3rem; font-weight: 700; margin-bottom: 0.8rem; text-shadow: 0 3px 12px rgba(0,0,0,0.4); }
+    header p { font-size: 1.3rem; opacity: 0.95; }
+    .greeting {
+      font-size: 1.6rem;
+      color: var(--primary);
+      text-align: center;
+      margin: 2.5rem 0 3rem;
+      font-weight: 600;
+      text-shadow: 0 2px 6px rgba(30,64,175,0.2);
+    }
+    .member-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+      gap: 1.8rem;
+    }
+    .member-card {
+      background: var(--card);
+      border-radius: 20px;
+      padding: 1.8rem 2rem;
+      box-shadow: var(--shadow);
+      border: 3px solid transparent;
+      background-clip: padding-box;
+      position: relative;
+      overflow: hidden;
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+    .member-card:hover {
+      transform: translateY(-12px) scale(1.03);
+      box-shadow: 0 25px 50px rgba(139,92,246,0.35);
+    }
+    .member-card::before {
+      content: '';
+      position: absolute;
+      inset: -3px;
+      background: linear-gradient(45deg, #3b82f6, #8b5cf6, #ec4899, #f43f5e, #3b82f6);
+      background-size: 300% 300%;
+      border-radius: 20px;
+      z-index: -1;
+      opacity: 0;
+      transition: opacity 0.5s ease;
+      animation: gradient 8s ease infinite;
+    }
+    .member-card:hover::before { opacity: 0.2; }
+    @keyframes gradient {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    .member-number {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--gradient);
+      color: white;
+      font-weight: 700;
+      width: 50px; height: 50px;
+      border-radius: 50%;
+      font-size: 1.4rem;
+      margin-right: 1.4rem;
+      box-shadow: 0 6px 15px rgba(59,130,246,0.5);
+      vertical-align: middle;
+    }
+    .member-info { display: inline-block; vertical-align: middle; }
+    .member-name { font-weight: 700; font-size: 1.35rem; margin-bottom: 0.5rem; color: #1e40af; }
+    .member-location { color: var(--text-light); font-size: 1.05rem; margin-bottom: 0.6rem; }
+    .member-username { color: #7c3aed; font-size: 0.98rem; word-break: break-all; font-style: italic; }
+    footer {
+      text-align: center;
+      margin-top: 6rem;
+      padding: 3rem 1.5rem;
+      background: var(--gradient);
+      color: white;
+      border-radius: 24px;
+      font-size: 1.2rem;
+      box-shadow: 0 -15px 40px rgba(59,130,246,0.25);
+    }
+    @media (max-width: 800px) {
+      header h1 { font-size: 2.4rem; }
+      .member-grid { grid-template-columns: 1fr; }
+      .member-number { width: 45px; height: 45px; font-size: 1.3rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <header>
+      <h1>KoViLiKa Regional<br>SE Kalimantan</h1>
+      <p>Adil Katalino Bacuramin Kasurga Basengat Kajubata Arus... Arus... Arus...</p>
+    </header>
+
+    <div class="greeting">
+      Assalamualaikum Warahmatullahi Wabarakatuh<br>
+      Salam Sejahtera untuk Kita Semua
+    </div>
+
+    <div class="member-grid">
+
+      <!-- 1-30 -->
+      <div class="member-card"><span class="member-number">1</span><div class="member-info"><div class="member-name">Prana</div><div class="member-location">Palangkaraya, Kalteng</div></div></div>
+      <div class="member-card"><span class="member-number">2</span><div class="member-info"><div class="member-name">Rifai</div><div class="member-location">Balangan, Kalsel</div><div class="member-username">@~Rifai</div></div></div>
+      <div class="member-card"><span class="member-number">3</span><div class="member-info"><div class="member-name">Irwan Nur</div><div class="member-location">Samarinda, Kaltim</div><div class="member-username">@~Irwan Nur -WH Garage-</div></div></div>
+      <div class="member-card"><span class="member-number">4</span><div class="member-info"><div class="member-name">Hiezky</div><div class="member-location">Bjb, Kalsel</div><div class="member-username">@𝙷𝚒𝚎𝚣𝚔𝚢16 Kovilika</div></div></div>
+      <div class="member-card"><span class="member-number">5</span><div class="member-info"><div class="member-name">M. Arif Prayogo</div><div class="member-location">Sungai Danau, Kalsel</div><div class="member-username">@~muhammadarief01234</div></div></div>
+      <div class="member-card"><span class="member-number">6</span><div class="member-info"><div class="member-name">Ari Yosi</div><div class="member-location">Tanjung Tabalong, Kalsel</div><div class="member-username">@~Ari Yosi</div></div></div>
+      <div class="member-card"><span class="member-number">7</span><div class="member-info"><div class="member-name">Fitri</div><div class="member-location">Barabai/Rantau/Martapura (kalsel)</div><div class="member-username">@~Fitri</div></div></div>
+      <div class="member-card"><span class="member-number">8</span><div class="member-info"><div class="member-name">Ilham</div><div class="member-location">Kobar/sukamara (Kalteng)</div><div class="member-username">@~Ilham 3102</div></div></div>
+      <div class="member-card"><span class="member-number">9</span><div class="member-info"><div class="member-name">Ogy</div><div class="member-location">Kuala Pembuang (Kalteng)</div><div class="member-username">@~OGY ARISTA LESMANA</div></div></div>
+      <div class="member-card"><span class="member-number">10</span><div class="member-info"><div class="member-name">Firman</div><div class="member-location">bjm kalsel</div><div class="member-username">@~Firman Yuliansyah</div></div></div>
+      <div class="member-card"><span class="member-number">11</span><div class="member-info"><div class="member-name">Setio Agogik</div><div class="member-location">Parenggean Kalteng</div><div class="member-username">@+62 813-7656-8090</div></div></div>
+      <div class="member-card"><span class="member-number">12</span><div class="member-info"><div class="member-name">Yuli Uras</div><div class="member-location">BJB-Tamiang Kalselteng</div><div class="member-username">@Mba Yuli💞Uras Kovilika</div></div></div>
+      <div class="member-card"><span class="member-number">13</span><div class="member-info"><div class="member-name">Iwan Azza</div><div class="member-location">Martapura Kalsel</div><div class="member-username">@Iwan Vios Banjarbaru Az-Za Kovilika</div></div></div>
+      <div class="member-card"><span class="member-number">14</span><div class="member-info"><div class="member-name">Dwi nopianto</div><div class="member-location">Palangkaraya (Kalteng)</div><div class="member-username">@~Dwi N..😶</div></div></div>
+      <div class="member-card"><span class="member-number">15</span><div class="member-info"><div class="member-name">Alim firmansyah</div><div class="member-location">pengaron/BJB kalsel</div><div class="member-username">@~Alim Firmansyah</div></div></div>
+      <div class="member-card"><span class="member-number">16</span><div class="member-info"><div class="member-name">Faisal</div><div class="member-location">Palangkaraya Kalteng</div><div class="member-username">@~Faisal</div></div></div>
+      <div class="member-card"><span class="member-number">17</span><div class="member-info"><div class="member-name">Fendi</div><div class="member-location">Kobar (Kalteng)</div><div class="member-username">@~Fendi</div></div></div>
+      <div class="member-card"><span class="member-number">18</span><div class="member-info"><div class="member-name">Heri</div><div class="member-location">Paser (Kaltim)</div><div class="member-username">@~LORD SASONGKO</div></div></div>
+      <div class="member-card"><span class="member-number">19</span><div class="member-info"><div class="member-name">Rizan Tok</div><div class="member-location">Banjar Baru, Kalsel</div><div class="member-username">@~rizantayib</div></div></div>
+      <div class="member-card"><span class="member-number">20</span><div class="member-info"><div class="member-name">Yudhi</div><div class="member-location">Palangka Raya (Kalteng)</div><div class="member-username">@~RPA SR</div></div></div>
+      <div class="member-card"><span class="member-number">21</span><div class="member-info"><div class="member-name">Doel Cemet</div><div class="member-location">Bontang Kaltim</div><div class="member-username">@~Doel Cemet</div></div></div>
+      <div class="member-card"><span class="member-number">22</span><div class="member-info"><div class="member-name">Ramadhani P.</div><div class="member-location">Bun (Kalteng)</div><div class="member-username">@~Ramadani</div></div></div>
+      <div class="member-card"><span class="member-number">23</span><div class="member-info"><div class="member-name">BAYU.</div><div class="member-location">MARABAHAN KOTA (Kalsel)</div><div class="member-username">@~S.BAYU.S</div></div></div>
+      <div class="member-card"><span class="member-number">24</span><div class="member-info"><div class="member-name">H. Hartani</div><div class="member-location">Kuala Kapuas (KalTeng)</div><div class="member-username">@~Hartani</div></div></div>
+      <div class="member-card"><span class="member-number">25</span><div class="member-info"><div class="member-name">Haji Ariansyah</div><div class="member-location">Pulang Pisau (Kalteng)</div><div class="member-username">@~🤲'Bismillah'🤲</div></div></div>
+      <div class="member-card"><span class="member-number">26</span><div class="member-info"><div class="member-name">Arsyad</div><div class="member-location">Banjarbaru (Kalsel)</div><div class="member-username">@+62 852-4999-9905</div></div></div>
+      <div class="member-card"><span class="member-number">27</span><div class="member-info"><div class="member-name">Umbu</div><div class="member-location">Kuala Kapuas (Kalteng)</div><div class="member-username">@~uMBu</div></div></div>
+      <div class="member-card"><span class="member-number">28</span><div class="member-info"><div class="member-name">Alpian</div><div class="member-location">landasan Ulin Banjar baru (Kalsel)</div><div class="member-username">@~Alfian Noor</div></div></div>
+      <div class="member-card"><span class="member-number">29</span><div class="member-info"><div class="member-name">Baguzz purnama</div><div class="member-location">Pontianak Supadio (KALBAR)</div><div class="member-username">@~baguzz purnama</div></div></div>
+      <div class="member-card"><span class="member-number">30</span><div class="member-info"><div class="member-name">Wahid</div><div class="member-location">Buntok Kalteng</div><div class="member-username">@~Wahid VK 311</div></div></div>
+
+      <!-- 31-100 full -->
+      <div class="member-card"><span class="member-number">31</span><div class="member-info"><div class="member-name">Jahri</div><div class="member-location">(Berau) Kaltim</div><div class="member-username">@~Beruang Madu🐻</div></div></div>
+      <div class="member-card"><span class="member-number">32</span><div class="member-info"><div class="member-name">Alamsyah</div><div class="member-location">B.Papan Kaltim</div><div class="member-username">@~KT. 414. M</div></div></div>
+      <div class="member-card"><span class="member-number">33</span><div class="member-info"><div class="member-name">Junaidi</div><div class="member-location">Alabio amuntan Kalsel</div><div class="member-username">@~jun@idi</div></div></div>
+      <div class="member-card"><span class="member-number">34</span><div class="member-info"><div class="member-name">Jayadi</div><div class="member-location">Sampit Kalteng</div><div class="member-username">@~Jay</div></div></div>
+      <div class="member-card"><span class="member-number">35</span><div class="member-info"><div class="member-name">Bima</div><div class="member-location">l.ulin (kal sel)</div><div class="member-username">@~Bima</div></div></div>
+      <div class="member-card"><span class="member-number">36</span><div class="member-info"><div class="member-name">Vachmy</div><div class="member-location">Paser (KalTim)</div><div class="member-username">@~Vachmy 165</div></div></div>
+      <div class="member-card"><span class="member-number">37</span><div class="member-info"><div class="member-name">Rudy H</div><div class="member-location">Banjarbaru, Kalsel</div><div class="member-username">@~Rudy Harmawan</div></div></div>
+      <div class="member-card"><span class="member-number">38</span><div class="member-info"><div class="member-name">Nova</div><div class="member-location">P.Bun Kalteng</div><div class="member-username">@~Nova Vanduwinata</div></div></div>
+      <div class="member-card"><span class="member-number">39</span><div class="member-info"><div class="member-name">Rafie Wengga</div><div class="member-location">Banjar Baru Kalsel</div><div class="member-username">@Rafiewengga 🌱 Info Loker</div></div></div>
+      <div class="member-card"><span class="member-number">40</span><div class="member-info"><div class="member-name">Muhammad Erwin</div><div class="member-location">Tanjung Kalsel</div><div class="member-username">@~Muhammad erwan</div></div></div>
+      <div class="member-card"><span class="member-number">41</span><div class="member-info"><div class="member-name">Rahman Aryadi</div><div class="member-location">Kandangan Kalsel</div><div class="member-username">@~Rahman Aryandi</div></div></div>
+      <div class="member-card"><span class="member-number">42</span><div class="member-info"><div class="member-name">Khusnul Arema</div><div class="member-location">Palangka Raya Kalteng</div><div class="member-username">@~Khusnul arema</div></div></div>
+      <div class="member-card"><span class="member-number">43</span><div class="member-info"><div class="member-name">Momom Ampangan</div><div class="member-location">Grogot Paser Kaltim</div><div class="member-username">@~momomampangan56</div></div></div>
+      <div class="member-card"><span class="member-number">44</span><div class="member-info"><div class="member-name">Sujatmiko</div><div class="member-location">Palangka Raya Kalteng</div><div class="member-username">@~sujadmikoppl</div></div></div>
+      <div class="member-card"><span class="member-number">45</span><div class="member-info"><div class="member-name">Dede</div><div class="member-location">Basarang Kalteng</div><div class="member-username">@~~=~</div></div></div>
+      <div class="member-card"><span class="member-number">46</span><div class="member-info"><div class="member-name">Hayat</div><div class="member-location">Banjar Masin Kalsel</div><div class="member-username">@~★ 𝐻𝑎𝑦𝑎𝑡 𝑃𝑎𝑟𝑚𝑎 ★</div></div></div>
+      <div class="member-card"><span class="member-number">47</span><div class="member-info"><div class="member-name">Fredi Nohan Tahan</div><div class="member-location">Lamandau Kalteng</div><div class="member-username">@~▁ ▂ ▃ ▅ ▆ ▇ █ Fred N.T.🇮🇩☕</div></div></div>
+      <div class="member-card"><span class="member-number">48</span><div class="member-info"><div class="member-name">Abbyzar</div><div class="member-location">Kapuas Kalteng</div><div class="member-username">@~Iwan_ABZR</div></div></div>
+      <div class="member-card"><span class="member-number">49</span><div class="member-info"><div class="member-name">Abhut</div><div class="member-location">Margasari Kalsel</div><div class="member-username">@Abut KOVILIKA</div></div></div>
+      <div class="member-card"><span class="member-number">50</span><div class="member-info"><div class="member-name">Aci Abah Ali Seman</div><div class="member-location">Sungkai Kalsel</div><div class="member-username">@~aciahmad179</div></div></div>
+      <div class="member-card"><span class="member-number">51</span><div class="member-info"><div class="member-name">Adi Subrata</div><div class="member-location">Marabahan Kalsel</div><div class="member-username">@~Adi_Subrata</div></div></div>
+      <div class="member-card"><span class="member-number">52</span><div class="member-info"><div class="member-name">Mba Agustina</div><div class="member-location">Palangka Raya Kalteng</div><div class="member-username">@+62 831-9294-4780</div></div></div>
+      <div class="member-card"><span class="member-number">53</span><div class="member-info"><div class="member-name">Aditya Ikhsan</div><div class="member-location">BJB Kalsel</div><div class="member-username">@~Aditya Ikhsan</div></div></div>
+      <div class="member-card"><span class="member-number">54</span><div class="member-info"><div class="member-name">Aduk STNK</div><div class="member-location">Sei Lulut BJM Kalsel</div><div class="member-username">@~Adul STBK</div></div></div>
+      <div class="member-card"><span class="member-number">55</span><div class="member-info"><div class="member-name">Agus Susilo</div><div class="member-location">Margasari Kalsel</div><div class="member-username">@~Agus</div></div></div>
+      <div class="member-card"><span class="member-number">56</span><div class="member-info"><div class="member-name">Agus W.P</div><div class="member-location">Kandangan Kalsel</div><div class="member-username">@~🅐🅖🅤🅢 🅦.🅟</div></div></div>
+      <div class="member-card"><span class="member-number">57</span><div class="member-info"><div class="member-name">Ahdi Muqraha</div><div class="member-location">Tanjung Kalsel</div><div class="member-username">@~Ahdi</div></div></div>
+      <div class="member-card"><span class="member-number">58</span><div class="member-info"><div class="member-name">Aidi Nurrahman</div><div class="member-location">Rantau Kalsel</div><div class="member-username">@~Mina</div></div></div>
+      <div class="member-card"><span class="member-number">59</span><div class="member-info"><div class="member-name">Gusti Doddy</div><div class="member-location">Rantau Kalsel</div><div class="member-username">@~دودى رفان</div></div></div>
+      <div class="member-card"><span class="member-number">60</span><div class="member-info"><div class="member-name">Akbar</div><div class="member-location">Landasan Ulin Kalsel</div><div class="member-username">@~Akbar28</div></div></div>
+      <div class="member-card"><span class="member-number">61</span><div class="member-info"><div class="member-name">Alhamdulillah Fahri Bin Samman</div><div class="member-location">Banjar Baru Kalsel</div><div class="member-username">@~fahricindi538</div></div></div>
+      <div class="member-card"><span class="member-number">62</span><div class="member-info"><div class="member-name">Amir</div><div class="member-location">Rantau Kalsel</div><div class="member-username">@~Amir</div></div></div>
+      <div class="member-card"><span class="member-number">63</span><div class="member-info"><div class="member-name">Amrul Mio Thailand</div><div class="member-location">Banjar Masin</div><div class="member-username">@~amrullah060922</div></div></div>
+      <div class="member-card"><span class="member-number">64</span><div class="member-info"><div class="member-name">Ardy Umar</div><div class="member-location">Banjar Baru Kalsel</div><div class="member-username">@~Ardy Umar</div></div></div>
+      <div class="member-card"><span class="member-number">65</span><div class="member-info"><div class="member-name">Aris Mobil</div><div class="member-location">Landasan Ulin Kalsel</div><div class="member-username">@~aries</div></div></div>
+      <div class="member-card"><span class="member-number">66</span><div class="member-info"><div class="member-name">Aris</div><div class="member-location">Lianganggang Kalsel</div><div class="member-username">@~Aris</div></div></div>
+      <div class="member-card"><span class="member-number">67</span><div class="member-info"><div class="member-name">Aris</div><div class="member-location">Tanjung Kalsel</div><div class="member-username">@~Haris.f</div></div></div>
+      <div class="member-card"><span class="member-number">68</span><div class="member-info"><div class="member-name">Arsyad</div><div class="member-location">BJB Kalsel</div><div class="member-username">@+62 852-4999-9905</div></div></div>
+      <div class="member-card"><span class="member-number">69</span><div class="member-info"><div class="member-name">Asmuri</div><div class="member-location">Kintab Martapura Kalsel</div><div class="member-username">@~9472</div></div></div>
+      <div class="member-card"><span class="member-number">70</span><div class="member-info"><div class="member-name">Brayan</div><div class="member-location">Kota Baru Kalsel</div><div class="member-username">@+62 857-5433-3901</div></div></div>
+      <div class="member-card"><span class="member-number">71</span><div class="member-info"><div class="member-name">Budi Maulani</div><div class="member-location">Pelaihari Kalsel</div><div class="member-username">@~Budi Maulana</div></div></div>
+      <div class="member-card"><span class="member-number">72</span><div class="member-info"><div class="member-name">Catur</div><div class="member-location">BAnjar Baru Kalsel</div><div class="member-username">@Pak Catur Vios 2016</div></div></div>
+      <div class="member-card"><span class="member-number">73</span><div class="member-info"><div class="member-name">Damasus</div><div class="member-location">Banjar Baru Kalsel</div><div class="member-username">@~Damasus // Destra Ananta</div></div></div>
+      <div class="member-card"><span class="member-number">74</span><div class="member-info"><div class="member-name">Daniel Hanjono</div><div class="member-location">Banjar Baru Kalsel</div><div class="member-username">@~Daniel Harjono</div></div></div>
+      <div class="member-card"><span class="member-number">75</span><div class="member-info"><div class="member-name">Dita Amanda</div><div class="member-location">Banjar Masin Kalsel</div><div class="member-username">@~Ditamanda</div></div></div>
+      <div class="member-card"><span class="member-number">76</span><div class="member-info"><div class="member-name">Fahri Naufal</div><div class="member-location">Banjar Masin</div><div class="member-username">@~Fahri_naufal</div></div></div>
+      <div class="member-card"><span class="member-number">77</span><div class="member-info"><div class="member-name">Fajar Budiman</div><div class="member-location">Barabai Kalsel</div><div class="member-username">@~FajarBudmn</div></div></div>
+      <div class="member-card"><span class="member-number">78</span><div class="member-info"><div class="member-name">Ferry Hendrawan</div><div class="member-location">Pelaihari Kalsel</div><div class="member-username">@~Ferry Hendrawan</div></div></div>
+      <div class="member-card"><span class="member-number">79</span><div class="member-info"><div class="member-name">Ferry</div><div class="member-location">Banjar Masin Kalsel</div><div class="member-username">@~fery</div></div></div>
+      <div class="member-card"><span class="member-number">80</span><div class="member-info"><div class="member-name">Alfred</div><div class="member-location">Palangka Raya Kalteng</div><div class="member-username">@~Alfrid</div></div></div>
+      <div class="member-card"><span class="member-number">81</span><div class="member-info"><div class="member-name">Melody Sibarani</div><div class="member-location">Landasan Ulin Banjar Baru Kalsel</div><div class="member-username">@~covilika</div></div></div>
+      <div class="member-card"><span class="member-number">82</span><div class="member-info"><div class="member-name">anya andre</div><div class="member-username">@~anya andre</div></div></div>
+      <div class="member-card"><span class="member-number">83</span><div class="member-info"><div class="member-name">Andre</div><div class="member-location">Palangka Raya Kalteng</div><div class="member-username">@~anya andre</div></div></div>
+      <div class="member-card"><span class="member-number">84</span><div class="member-info"><div class="member-name">Arie Wicaksono</div><div class="member-location">Pangkalan Bun Kalteng</div><div class="member-username">@~Arief Wicaksono Saputro</div></div></div>
+      <div class="member-card"><span class="member-number">85</span><div class="member-info"><div class="member-name">Arif</div><div class="member-location">Kapuas-Banjar Baru Kalselteng</div><div class="member-username">@Arkomp</div></div></div>
+      <div class="member-card"><span class="member-number">86</span><div class="member-info"><div class="member-name">Asep.</div><div class="member-location">Pangkalan Bun Kalteng</div><div class="member-username">@~As</div></div></div>
+      <div class="member-card"><span class="member-number">87</span><div class="member-info"><div class="member-name">Asep</div><div class="member-location">Kuala Kapuas Kalteng</div><div class="member-username">@~aseprochimat44</div></div></div>
+      <div class="member-card"><span class="member-number">88</span><div class="member-info"><div class="member-name">Bangun Sugiti</div><div class="member-location">Pulang Pisau Kalteng</div><div class="member-username">@~Bangun Sugito</div></div></div>
+      <div class="member-card"><span class="member-number">89</span><div class="member-info"><div class="member-name">Beriyanti</div><div class="member-location">Palangka Raya Kalteng</div><div class="member-username">@~Berryanto_693534</div></div></div>
+      <div class="member-card"><span class="member-number">90</span><div class="member-info"><div class="member-name">Ade</div><div class="member-location">Palangka Raya Kalteng</div><div class="member-username">@~Ade</div></div></div>
+      <div class="member-card"><span class="member-number">91</span><div class="member-info"><div class="member-name">Dayat</div><div class="member-location">Kuala Kapuas Kalteng</div><div class="member-username">@~AHMAD HIDAYAT</div></div></div>
+      <div class="member-card"><span class="member-number">92</span><div class="member-info"><div class="member-name">Den Bagus</div><div class="member-location">Pangkalan Bun Kalteng</div><div class="member-username">@~Den bagus</div></div></div>
+      <div class="member-card"><span class="member-number">93</span><div class="member-info"><div class="member-name">dr Abrahan</div><div class="member-location">Palangka Raya Kalteng</div><div class="member-username">@~Dr. Abraham</div></div></div>
+      <div class="member-card"><span class="member-number">94</span><div class="member-info"><div class="member-name">Efan</div><div class="member-location">KPS-Pulpis Kalteng</div><div class="member-username">@~Stefanus Eko</div></div></div>
+      <div class="member-card"><span class="member-number">95</span><div class="member-info"><div class="member-name">Ketut</div><div class="member-location">Basarang Kalteng</div><div class="member-username">@~kapuask845</div></div></div>
+      <div class="member-card"><span class="member-number">96</span><div class="member-info"><div class="member-name">Efeeet</div><div class="member-location">Banjar Masin Kalsel</div><div class="member-username">@~Efeeet Radar Banjarmasin</div></div></div>
+      <div class="member-card"><span class="member-number">97</span><div class="member-info"><div class="member-name">Rizky Jaya Khaidir</div><div class="member-location">Amuntai Kalsel</div><div class="member-username">@~Khaidir</div></div></div>
+      <div class="member-card"><span class="member-number">98</span><div class="member-info"><div class="member-name">Fajri Wong Solo</div><div class="member-location">Kuala Kapuas Kalteng</div><div class="member-username">@~Fajri</div></div></div>
+      <div class="member-card"><span class="member-number">99</span><div class="member-info"><div class="member-name">Fanji Qaisar</div><div class="member-location">Palangka Raya Kalteng</div><div class="member-username">@~Fanji</div></div></div>
+      <div class="member-card"><span class="member-number">100</span><div class="member-info"><div class="member-name">Fendi</div><div class="member-location">Pulang Pisau Kalteng</div><div class="member-username">@~Fendi</div></div></div>
+
+      <!-- 101-153 -->
+      <div class="member-card"><span class="member-number">101</span><div class="member-info"><div class="member-name">Hakim</div><div class="member-location">Kasongan Palangka Raya Kalteng</div><div class="member-username">@~cinta Finara</div></div></div>
+      <div class="member-card"><span class="member-number">102</span><div class="member-info"><div class="member-name">Ferry Hendrawan</div><div class="member-location">Pelaihari Tanah Laut Kalsel</div><div class="member-username">@~Ferry Hendrawan</div></div></div>
+      <div class="member-card"><span class="member-number">104</span><div class="member-info"><div class="member-name">Fatoni</div><div class="member-location">Sangatta Kaltim</div><div class="member-username">@~Fatoni</div></div></div>
+      <div class="member-card"><span class="member-number">105</span><div class="member-info"><div class="member-name">Arif Rahman</div><div class="member-location">Grogot Kab Paser Kaltim</div><div class="member-username">@+62 811-5943-222</div></div></div>
+      <div class="member-card"><span class="member-number">106</span><div class="member-info"><div class="member-name">Gusti Ahmad Efendi</div><div class="member-location">sei Rangit Kalteng</div><div class="member-username">@~Z""""</div></div></div>
+      <div class="member-card"><span class="member-number">107</span><div class="member-info"><div class="member-name">Ogiy</div><div class="member-location">Pelangsian Sampit Kotim Kalteng</div><div class="member-username">@~Ogiy</div></div></div>
+      <div class="member-card"><span class="member-number">108</span><div class="member-info"><div class="member-name">Hendara Irawan</div><div class="member-location">Karau Kab Bumbu Kalsel</div><div class="member-username">@~Hendra Irawan</div></div></div>
+      <div class="member-card"><span class="member-number">109</span><div class="member-info"><div class="member-name">Mas Edi</div><div class="member-location">Tanjung Tabalong</div><div class="member-username">@~ed</div></div></div>
+      <div class="member-card"><span class="member-number">110</span><div class="member-info"><div class="member-name">Amir</div><div class="member-location">Rantau Tapin</div><div class="member-username">@~A</div></div></div>
+      <div class="member-card"><span class="member-number">111</span><div class="member-info"><div class="member-name">Fanji Qaisar</div><div class="member-location">Residen Palangka Raya Kalteng</div><div class="member-username">@~Fanji</div></div></div>
+      <div class="member-card"><span class="member-number">112</span><div class="member-info"><div class="member-name">Guswansyah</div><div class="member-location">Palangka Raya Kalteng</div><div class="member-username">@~Gusmawansyah</div></div></div>
+      <div class="member-card"><span class="member-number">113</span><div class="member-info"><div class="member-name">H. Hartani</div><div class="member-location">Palangka Raya Kalteng</div><div class="member-username">@~Hartana</div></div></div>
+      <div class="member-card"><span class="member-number">114</span><div class="member-info"><div class="member-name">Hendra Yanto</div><div class="member-location">Palangka Raya Kalteng</div><div class="member-username">@~Hendra Yulianto</div></div></div>
+      <div class="member-card"><span class="member-number">115</span><div class="member-info"><div class="member-name">Julham Pajak</div><div class="member-location">Palangka Raya Kalteng</div><div class="member-username">@~Julham S</div></div></div>
+      <div class="member-card"><span class="member-number">116</span><div class="member-info"><div class="member-name">Indra Borneo</div><div class="member-location">Palangka Raya Kalteng</div><div class="member-username">@~indraborneo</div></div></div>
+      <div class="member-card"><span class="member-number">117</span><div class="member-info"><div class="member-name">Laki Neneng</div><div class="member-location">Palangka Raya Kalteng</div><div class="member-username">@~.</div></div></div>
+      <div class="member-card"><span class="member-number">118</span><div class="member-info"><div class="member-name">Bunda Wira Mutia</div><div class="member-location">Palangka Raya Kalteng</div><div class="member-username">@+62 811-5019-731</div></div></div>
+      <div class="member-card"><span class="member-number">119</span><div class="member-info"><div class="member-name">Mba Mutia</div><div class="member-location">Sampit Palangka Raya Kalteng</div><div class="member-username">@+62 852-4908-7366</div></div></div>
+      <div class="member-card"><span class="member-number">120</span><div class="member-info"><div class="member-name">Nor Hadi Cakra Buana</div><div class="member-location">Palangka Raya Kalteng</div><div class="member-username">@~NOR HADI</div></div></div>
+      <div class="member-card"><span class="member-number">121</span><div class="member-info"><div class="member-name">Mba Nunung</div><div class="member-location">Palangka Raya</div><div class="member-username">@~Nunung Karlina</div></div></div>
+      <div class="member-card"><span class="member-number">122</span><div class="member-info"><div class="member-name">Queen</div><div class="member-location">Palangka Raya Kalteng</div><div class="member-username">@+62 857-5263-6367</div></div></div>
+      <div class="member-card"><span class="member-number">123</span><div class="member-info"><div class="member-name">Rizal stiker</div><div class="member-location">Palangka Raya Kalteng</div><div class="member-username">@Rizal Stiker Kapuas KOVILIKA</div></div></div>
+      <div class="member-card"><span class="member-number">124</span><div class="member-info"><div class="member-name">Ronny</div><div class="member-location">Palangka Raya Kalteng</div><div class="member-username">@~RonyChens</div></div></div>
+      <div class="member-card"><span class="member-number">125</span><div class="member-info"><div class="member-name">Sugeng</div><div class="member-location">Palangka Raya Kalteng</div><div class="member-username">@~Sugeng Wiyono</div></div></div>
+      <div class="member-card"><span class="member-number">126</span><div class="member-info"><div class="member-name">Rizal</div><div class="member-location">Palangka Raya Kalteng</div><div class="member-username">@~raunchy ok</div></div></div>
+      <div class="member-card"><span class="member-number">127</span><div class="member-info"><div class="member-name">Fitliansya T.</div><div class="member-location">Bumbu Kalsel</div><div class="member-username">@~ANSYAH</div></div></div>
+      <div class="member-card"><span class="member-number">128</span><div class="member-info"><div class="member-name">Sutris marmer</div><div class="member-location">Palangka Raya Kalteng</div><div class="member-username">@~Sutris</div></div></div>
+      <div class="member-card"><span class="member-number">129</span><div class="member-info"><div class="member-name">Voltase dosen UPR</div><div class="member-location">Palangka Raya Kalteng</div><div class="member-username">@~Vontas Nahan</div></div></div>
+      <div class="member-card"><span class="member-number">130</span><div class="member-info"><div class="member-name">Zaa Solihin</div><div class="member-location">Palangka Raya Kalteng</div><div class="member-username">@~Solichin</div></div></div>
+      <div class="member-card"><span class="member-number">131</span><div class="member-info"><div class="member-name">Hari</div><div class="member-location">Kuala Kapuas Kalteng</div><div class="member-username">@~herry</div></div></div>
+      <div class="member-card"><span class="member-number">132</span><div class="member-info"><div class="member-name">Muh Zakir</div><div class="member-location">Kuala Kapuas Kalteng</div><div class="member-username">@~Muhammad zakir Rijky</div></div></div>
+      <div class="member-card"><span class="member-number">133</span><div class="member-info"><div class="member-name">Mba Ova</div><div class="member-location">Lamandau Kalteng</div><div class="member-username">@~Belmin 0698</div></div></div>
+      <div class="member-card"><span class="member-number">134</span><div class="member-info"><div class="member-name">Roy Indrawan</div><div class="member-location">Lamandau Kalteng</div><div class="member-username">@~royindrawan283</div></div></div>
+      <div class="member-card"><span class="member-number">135</span><div class="member-info"><div class="member-name">Asep</div><div class="member-location">Pangkalan Bun Kalteng</div><div class="member-username">@~As</div></div></div>
+      <div class="member-card"><span class="member-number">136</span><div class="member-info"><div class="member-name">Krisna Nugra</div><div class="member-location">Pangkalan Bun Kalteng</div><div class="member-username">@~krisnanugraha746</div></div></div>
+      <div class="member-card"><span class="member-number">137</span><div class="member-info"><div class="member-name">Gusti Panji</div><div class="member-username">@~Gusti_panji</div></div></div>
+      <div class="member-card"><span class="member-number">138</span><div class="member-info"><div class="member-name">Wilder</div><div class="member-location">Pangkalan Bun</div><div class="member-username">@~sswelder82</div></div></div>
+      <div class="member-card"><span class="member-number">139</span><div class="member-info"><div class="member-name">Sukri</div><div class="member-location">Pangkalan Bun Kalteng</div><div class="member-username">@~Sukri TG</div></div></div>
+      <div class="member-card"><span class="member-number">140</span><div class="member-info"><div class="member-name">Dede Irawan</div><div class="member-location">Balik Papan Kaltim</div><div class="member-username">@~Dede Irmawan</div></div></div>
+      <div class="member-card"><span class="member-number">141</span><div class="member-info"><div class="member-name">Dwi Priyanto</div><div class="member-location">Balik Papan Kaltim</div><div class="member-username">@~DW1 Priyanto</div></div></div>
+      <div class="member-card"><span class="member-number">142</span><div class="member-info"><div class="member-name">Mansur</div><div class="member-username">@~marcel</div></div></div>
+      <div class="member-card"><span class="member-number">143</span><div class="member-info"><div class="member-name">Arif</div><div class="member-location">Balik Papan Kaltim</div><div class="member-username">@~ariifsetiawan123</div></div></div>
+      <div class="member-card"><span class="member-number">144</span><div class="member-info"><div class="member-name">Ryan</div><div class="member-location">Banjar Masin Kalsel</div><div class="member-username">@~Ryan</div></div></div>
+      <div class="member-card"><span class="member-number">145</span><div class="member-info"><div class="member-name">Rydho</div><div class="member-location">Alabio Kalsel</div><div class="member-username">@~edo</div></div></div>
+      <div class="member-card"><span class="member-number">146</span><div class="member-info"><div class="member-name">Prilia</div><div class="member-location">Palangka Raya Kalteng Kalteng</div><div class="member-username">@LIA Isteri Pak Prana</div></div></div>
+      <div class="member-card"><span class="member-number">147</span><div class="member-info"><div class="member-name">Nasrullah Pajak</div><div class="member-location">Banjar Masin Kalsel</div><div class="member-username">@~Nasrullah</div></div></div>
+      <div class="member-card"><span class="member-number">148</span><div class="member-info"><div class="member-name">Mba Winda</div><div class="member-location">Palangka Raya Kalteng</div><div class="member-username">@~Windasari Purwanty</div></div></div>
+      <div class="member-card"><span class="member-number">149</span><div class="member-info"><div class="member-name">Agung Sahputra</div><div class="member-location">Melawi Kalbar</div><div class="member-username">@~Agung Saputra</div></div></div>
+      <div class="member-card"><span class="member-number">150</span><div class="member-info"><div class="member-name">Eko</div><div class="member-location">Pontianak Kalbar</div><div class="member-username">@~CV. BRAY FIBERGLASS</div></div></div>
+      <div class="member-card"><span class="member-number">151</span><div class="member-info"><div class="member-name">Joshua</div><div class="member-location">Pontianak Kalbar</div><div class="member-username">@~Joshua Charisma</div></div></div>
+      <div class="member-card"><span class="member-number">152</span><div class="member-info"><div class="member-name">Panji G.</div><div class="member-location">Pontianak Kalbar</div><div class="member-username">@~Panji Heri G</div></div></div>
+      <div class="member-card"><span class="member-number">153</span><div class="member-info"><div class="member-name">Winner</div><div class="member-location">Melawi Kalbar</div><div class="member-username">@~Winner Parent</div></div></div>
+
+    </div>
+
+    <footer>
+      Total 153 Anggota Lengkap • Dikelola Admin Prana • KoViLiKa Regional SE Kalimantan<br>
+      Kaltara • Kaltim • Kalsel • Kalteng • Kalbar • Tetap Solid! 🚗💥
+    </footer>
+
+  </div>
+
+</body>
+</html>
